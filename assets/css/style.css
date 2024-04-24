@@ -38,11 +38,16 @@ body {
   body {
     margin: 3%;
   }
+  body {
+    font-size: 1rem;
+  }
   #headP {
     font-size: 12px;
   }
   #myZoom {
+    /* position: relative; */
     max-width: 60px;
-    bottom: 10px;
+
+    bottom: 130px;
   }
 }
