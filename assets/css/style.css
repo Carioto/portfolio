@@ -1,0 +1,48 @@
+#headP {
+  font-size: 20px;
+}
+.navbar {
+  margin: auto;
+  font-size: 1.5rem;
+}
+#myZoom {
+  max-width: 200px;
+  max-height: 300px;
+  position: relative;
+  bottom: 300px;
+  right: 50px;
+}
+ul {
+  list-style: none;
+}
+#projects {
+  margin-bottom: 1em;
+  font-size: 1.5rem;
+}
+#contact {
+}
+body {
+  background-color: black;
+  color: azure;
+  margin: 1% 15%;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media screen and (max-width: 1070px) {
+  #myZoom {
+    max-width: 70px;
+    padding-top: 1%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    margin: 3%;
+  }
+  #headP {
+    font-size: 12px;
+  }
+  #myZoom {
+    max-width: 60px;
+    bottom: 10px;
+  }
+}
