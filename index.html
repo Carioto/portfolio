@@ -17,16 +17,19 @@
 </head>
 
 <body>
-  <header class="container mt-3" >
+  <header class="container mt-3" id="top" >
     <h1 class="fw-bold" >David Carioto</h1>
     <p id='headP'>&nbsp;&nbsp; --Full Stack Web Developer in Pittsburgh, Pennsylvania</p>
     
   </header>
   
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-black">
     <div class="container-fluid" id="navbar">
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="#top">Home</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link " href="#projects">Projects</a>
           </li>
@@ -34,7 +37,7 @@
             <a class="nav-link" href="#skills">Technical Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Resume & Contact Information</a>
+            <a class="nav-link" href="#contact">Contact Information</a>
           </li>
         </ul>
         <span class="navbar-text">
@@ -60,10 +63,14 @@
     <p>These projects were created during my time in the <strong>PennLPS</strong> bootcamp. </p>
     <!-- Note: Resize images to 300px wide auto aspect ratio -->
     
-    <div class='d-md-inline-flex flex-wrap justify-content-around'>
+    <div class='d-md-inline-flex flex-wrap justify-content-around' id="proj">
+      <a class=".img-fluid" href="https://github.com/Carioto/social_network_api" target="_blank"><img
+        src="./assets/images/socialnetworkapi.jpg" alt="Social Network back end">
+        <p>Social Network API</p>
+      </a>
       <a class=".img-fluid" href="https://stormy-journey-39722-b2e17c23bcea.herokuapp.com/" target="_blank"><img
         src="./assets/images/pizzateca.jpg" alt="Pizzateca Romana Point of Sale System">
-        <p>Pizzateca Romana POS System- Group Project - Live</p>
+        <p>Pizzateca Romana POS - Group - Live</p>
       </a>
       <a class=".img-fluid" href="https://polar-waters-90180-26f327d94b0b.herokuapp.com/" target="_blank"><img
         src="./assets/images/tech_blog.jpg" alt="The Tech Blog">
@@ -104,7 +111,7 @@
       </div>
     </div>
     
-    <div class="container" id="skills">
+  <div class="container" id="skills">
       <h2>Technical Skills</h2>
       <ul class="list-group-flush">
         <li>HTML, CSS, JavaScript, Node.js </li>
@@ -116,17 +123,25 @@
       <br>
     </ul>
   </div>
-  <div class="container text-center" id="contact">
-    <h2>Contact Information</h2>
-    <p>Best ways to reach me:</p>
-    <ul class="list-group-flush">
-      <li class="list-group-item bg-transparent"><a href="mailto:dcarioto114@outlook.com">Email</a></li>
-      <li class="list-group-item bg-transparent"><a href="tel:+4123273662">Phone</a></li>
-      <li class="list-group-item bg-transparent" target="_blank"><a href="https://www.linkedin.com/in/david-carioto">LinkedIn</a></li>
-      <li class="list-group-item bg-transparent" target="_blank"><a href="https://github.com/Carioto">GitHub</a></li>
-      <img class="float-end" src="./assets/images/me-zoomed.jpg" alt="Image of David" id="myZoom">
-    </ul>
+  
+  <div class="container" id="contact">
+    <h2 class="text-center">Contact Information</h2>
+    <p class="text-center">Best ways to reach me:</p>
+    <div class="container pt-5">
+      <div>
+        <ul class="list-group-flush">
+          <li class="list-group-item bg-transparent"><a href="mailto:dcarioto114@outlook.com">Email</a></li>
+          <li class="list-group-item bg-transparent"><a href="tel:+4123273662">Phone</a></li>
+          <li class="list-group-item bg-transparent" target="_blank"><a href="https://www.linkedin.com/in/david-carioto">LinkedIn</a></li>
+          <li class="list-group-item bg-transparent" target="_blank"><a href="https://github.com/Carioto">GitHub</a></li>
+        </ul>
+      </div>
+      <div>
+        <img class="float-end" src="./assets/images/me-zoomed.jpg" alt="Image of David" id="myZoom">
+      </div>
+    <div>
   </div>
+  
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="./assets/js/script.js"></script>
 </body>
