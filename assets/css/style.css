@@ -8,7 +8,6 @@
 #myZoom {
   max-width: 200px;
   max-height: 300px;
-  position: relative;
   bottom: 300px;
   right: 50px;
 }
@@ -40,7 +39,6 @@ body {
 }
 @media screen and (max-width: 1070px) {
   #myZoom {
-    max-width: 70px;
     padding-top: 1%;
   }
 }
@@ -55,9 +53,6 @@ body {
     font-size: 12px;
   }
   #myZoom {
-    /* position: relative; */
-    max-width: 60px;
-
-    bottom: 130px;
+    max-width: 80px;
   }
 }
