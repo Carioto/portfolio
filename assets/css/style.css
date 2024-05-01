@@ -11,6 +11,9 @@
   bottom: 300px;
   right: 50px;
 }
+.icons {
+  width: 64px;
+}
 ul {
   list-style: none;
 }
